@@ -1,0 +1,57 @@
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+
+.Data {
+    margin: 0;
+    color: black;
+}
+.titulo {
+    margin: 0;
+}
+
+header {
+    color: black;
+  }
+
+  h3{
+    color: darkblue;
+  }
+
+  .imagen-pequena {
+    width: 100px;
+    height: auto;
+  }
+
+  body {
+    background-color: #c7d5e2;
+    font-family: Arial, sans-serif;
+  font-size: 12px;
+  }
+  .habilidades {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+.habilidades li {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    background-color: #73abd4; /* Color azul fuerte */
+    color: #fff; /* Color de texto en blanco */
+    background-clip: padding-box;
+    max-width: 250px;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+    
+}
